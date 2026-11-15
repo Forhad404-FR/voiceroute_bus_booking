@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+backend/app/static/*
+!backend/app/static/.gitkeep
+*.pem
+*.log
+.DS_Store
